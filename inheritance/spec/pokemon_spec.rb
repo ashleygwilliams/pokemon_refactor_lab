@@ -33,6 +33,6 @@ describe Pokemon, "#abilities" do
 
   it "should gain abilities through exp" do
     bulba.gain_exp 3314
-    bulba.abilities.should eq(["Tackle", "Growl", "Leech Seed", "Vine Whip", "Poison Powder", "Sleep Powder", "Take Down"])
+    bulba.abilities.should eq(["Tackle", "Growl", "Leech Seed", "Vine Whip"])
   end
 end
